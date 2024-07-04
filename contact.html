@@ -4,15 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bunyamin Sait</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="header"  id="body_1">
-        <div class="name" id="hd1"><h2>Bunyamin Sait - Instructor</h2></div>
+        <div class="name" id="hd1"><h2>Bunyamin Sait</h2></div>
         <div class="menu" id="hd2"><a href="index.html">HOME</a> | <a href="about.html">ABOUT</a> | CONTACT</div>
     </div>    
     
     <div class="content" id="body_2">
+        <div class="conatct"><h1>CONTACT</h1></div>
+        <div class="section">
+            <div class="card">
+                <div class="left">
+                    <form action="saveToDb.php">
+                        <div  class="form-row">
+                            <label for="firstname">Firstname:</label>
+                        </div>
+                        <input type="text" name="firstname">
+                        <div  class="form-row">
+                            <label for="lastname">Lastname:</label>
+                        </div>
+                        <input type="text" name="lastname">
+                        <div  class="form-row">
+                            <label for="phone">Phone:</label>
+                        </div>
+                        <input type="tel">
+                        <div  class="form-row">
+                            <label for="email">Email:</label>
+                        </div>
+                        <input type="email">
+                        <div>
+                            <label for="city"> City</label>
+                        </div>
+                        <select name="city">
+                            <option value="1">Select City</option>
+                            <option value="2">Ankara</option>
+                            <option value="3">Kirsehir</option>
+                            <option value="4">Istanbul</option>
+                            <option value="5">Izmir</option>
+                        </select>
+                        <div  class="form-row">
+                                <label for="message">Your Message</label>
+                        </div>
+                        <textarea name="message"  cols="20" rows="10"></textarea>  <br>
+                        <button type="submit">SEND</button> <button type="reset">CLEAR</button>
 
+
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>    
     
     <div class="footer"  id="body_3">
